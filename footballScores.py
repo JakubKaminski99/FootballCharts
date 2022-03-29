@@ -5,7 +5,7 @@ url = 'https://www.flashscore.com/player/kaminski-jakub/hbhnybaa/'
 session = HTMLSession()
 res = session.get(url)
 res.html.render()
-assistList = list()
+assistList = list() 
 goalList = list()
 timeList = list()
 
